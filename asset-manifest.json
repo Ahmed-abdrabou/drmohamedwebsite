@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/drmohamedwebsite/static/css/main.77d128dd.css",
-    "main.js": "/drmohamedwebsite/static/js/main.aee8de35.js",
+    "main.js": "/drmohamedwebsite/static/js/main.66001b9a.js",
     "static/media/GetAppointment5-transformed.jpeg": "/drmohamedwebsite/static/media/GetAppointment5-transformed.17374d05e19b58270c73.jpeg",
     "static/media/bg2.png": "/drmohamedwebsite/static/media/bg2.feccd59d66e9980c1a59.png",
     "static/media/ismailia_location.jpg": "/drmohamedwebsite/static/media/ismailia_location.7649ee316219e255debf.jpg",
@@ -10,10 +10,10 @@
     "static/media/logo_red.png": "/drmohamedwebsite/static/media/logo_red.bfc4ba7af2f6632d704b.png",
     "index.html": "/drmohamedwebsite/index.html",
     "main.77d128dd.css.map": "/drmohamedwebsite/static/css/main.77d128dd.css.map",
-    "main.aee8de35.js.map": "/drmohamedwebsite/static/js/main.aee8de35.js.map"
+    "main.66001b9a.js.map": "/drmohamedwebsite/static/js/main.66001b9a.js.map"
   },
   "entrypoints": [
     "static/css/main.77d128dd.css",
-    "static/js/main.aee8de35.js"
+    "static/js/main.66001b9a.js"
   ]
 }
