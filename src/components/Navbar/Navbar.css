@@ -1,0 +1,70 @@
+.Navbar .logo img {
+  width: 50px;
+}
+
+.Navbar {
+  display: flex;
+  position: sticky;
+  padding: 20px 20px 0px 20px;
+  top: 0px;
+  background-color: var(--color-white);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+
+  flex: 1;
+}
+.links ul {
+  display: flex;
+}
+.links ul li {
+  text-align: center;
+  margin: 0px 20px 0px 20px;
+}
+@media screen and (max-width: 769px) {
+  .links ul li {
+    margin: 0px 1px 0px 10px;
+  }
+  .phones {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.links ul li a {
+}
+.links ul li a:hover {
+  color: var(--color-blue-light);
+  border-bottom: 1px solid var(--color-blue-light);
+}
+.phones {
+  display: flex;
+  cursor: pointer;
+}
+.phones p {
+  color: var(--color-red-light);
+}
+.phones:hover .phoneNumber_contaoner {
+  display: flex;
+}
+.phoneNumber_contaoner {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: var(--color-blue-light);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 80%);
+  padding: 10px 20px;
+
+  margin: 10px;
+}
+.phoneNumber {
+  padding: 10px;
+  letter-spacing: 1px;
+}

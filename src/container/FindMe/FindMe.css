@@ -1,0 +1,49 @@
+.FindMe {
+  padding: 30px;
+  background-color: rgb(242, 242, 242);
+}
+.FindMe_container {
+  display: flex;
+}
+.FindMe .location {
+  margin: 30px 10px;
+}
+.FindMe > h1 {
+  padding: 20px 0;
+}
+
+.location h3 {
+  padding: 10px 0;
+}
+.location > p {
+  padding: 5px 0;
+}
+.FindMe .location img {
+  width: 100%;
+  max-width: 900px;
+
+  margin: 20px 0;
+}
+@media screen and (max-width: 850px) {
+  .FindMe_container {
+    display: block;
+  }
+}
+@media screen and (max-width: 650px) {
+  .FindMe .location {
+    margin: 10px 0px;
+  }
+  .FindMe > h1 {
+    font-size: 25px;
+    padding: 5px 0;
+  }
+
+  .location h3 {
+    font-size: 20px;
+    padding: 2px 0;
+  }
+  .location > p {
+    font-size: 10px;
+    padding: 2px 0;
+  }
+}

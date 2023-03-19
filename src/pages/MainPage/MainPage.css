@@ -1,0 +1,25 @@
+.MainPage_img img {
+  width: fit-content;
+  width: 100%;
+}
+.MainPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MainPage .MainPage_text {
+  padding: 30px;
+  flex: 1;
+}
+.MainPage .MainPage_text h1 {
+  margin: 40px 0 20px 0;
+}
+.MainPage .MainPage_text h1 span {
+  color: var(--color-red);
+}
+.MainPage .MainPage_text p {
+  margin: 40px 0 40px 0;
+}
+.MainPage .MainPage_img {
+  flex: 1;
+}

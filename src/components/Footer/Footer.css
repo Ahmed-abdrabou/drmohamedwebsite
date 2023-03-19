@@ -1,0 +1,133 @@
+.Footer form textarea {
+  margin: 4px;
+  padding: 5px;
+
+  min-height: 100px;
+  max-height: 100px;
+  min-width: 300px;
+  max-width: 300px;
+}
+.Footer form input {
+  margin: 4px;
+  padding: 5px;
+  width: 300px;
+}
+.Footer {
+  background-color: var(--color-blue-light);
+  display: flex;
+  flex-direction: row;
+
+  padding: 100px 40px;
+}
+@media screen and (max-width: 1024px) {
+  .Footer {
+    flex-direction: column;
+  }
+}
+.contact_info {
+  flex: 1;
+  padding: 20px;
+}
+form {
+  flex: 1;
+  padding: 20px;
+}
+.social {
+  flex: 1;
+  padding: 20px;
+}
+.Footer .image_container img {
+  /* height: 80%; */
+  display: none;
+  position: absolute;
+
+  z-index: -1;
+}
+@media (max-width: 1024px) {
+  .Footer .image_container {
+    padding: 20px;
+  }
+  .Footer .image_container {
+    width: 100px;
+  }
+}
+.Footer form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 30px;
+
+  background-color: var(--color-blue-light);
+}
+
+.Footer form .custom__button {
+  width: fit-content;
+  background-color: var(--color-red-light);
+  margin-top: 10px;
+}
+.Footer form .input_container {
+  margin: 0px;
+}
+.Footer form .input_container label {
+  margin-bottom: 5px;
+}
+.Footer form .input_container input {
+  width: 100%;
+  padding: 10px;
+}
+@media (max-width: 1024px) {
+  .Footer form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .Footer form {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .Footer form {
+    width: 70%;
+    padding: 5px;
+  }
+  .Footer form .input_container {
+    margin: 5px;
+  }
+  .Footer form .input_container label {
+    font-size: 10px;
+  }
+  .Footer form .input_container input {
+    font-size: 10px;
+    padding: 0 5px;
+  }
+  .Footer form textarea {
+    font-size: 10px;
+
+    margin: 5px;
+    padding: 5px;
+
+    min-height: 100px;
+    max-height: 5 100px;
+    min-width: 20px;
+    max-width: 200px;
+  }
+  .Footer form .custom__button {
+    margin: 5px;
+    padding: 0 10px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Footer form {
+    width: 80%;
+  }
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social_item {
+  margin: 5px;
+  cursor: pointer;
+}

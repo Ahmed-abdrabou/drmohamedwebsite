@@ -1,0 +1,79 @@
+.GetAppointment {
+  background: url("../../assets/GetAppointment5-transformed.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  padding: 100px 0;
+}
+.form_container {
+}
+.GetAppointment .image_container img {
+  /* height: 80%; */
+  display: none;
+  position: absolute;
+
+  z-index: -1;
+}
+@media (max-width: 1024px) {
+  .GetAppointment .image_container {
+    padding: 20px;
+  }
+  .GetAppointment .image_container {
+    width: 100px;
+  }
+}
+.GetAppointment form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 30px;
+
+  background-color: var(--color-blue-light);
+}
+
+.GetAppointment form .custom__button {
+  width: fit-content;
+  background-color: var(--color-red-light);
+  margin-top: 10px;
+}
+.GetAppointment form .input_container {
+  margin: 0px;
+}
+.GetAppointment form .input_container label {
+  margin-bottom: 5px;
+}
+.GetAppointment form .input_container input {
+  width: 100%;
+  padding: 10px;
+}
+@media (max-width: 1024px) {
+  .GetAppointment form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .GetAppointment form {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 769px) {
+  .GetAppointment form {
+    width: 70%;
+  }
+  .GetAppointment form .input_container {
+    margin: 5px;
+  }
+  .GetAppointment form .input_container label {
+    font-size: 10px;
+  }
+  .GetAppointment form .input_container input {
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .GetAppointment form {
+    width: 100%;
+  }
+}
